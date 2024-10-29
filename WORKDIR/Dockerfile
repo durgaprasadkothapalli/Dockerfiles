@@ -1,4 +1,4 @@
-FROM alamalinux:9
+FROM almalinux:9
 RUN tmp/docker
 RUN pwd
 RUN echo "HELLO" > hello.txt
